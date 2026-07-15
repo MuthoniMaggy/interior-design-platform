@@ -1,14 +1,9 @@
-import "./App.css";
+import Button from "./components/Button/Button";
 function App(){
   return(
-    <div className="app">
-      <h1>Interior Design Platform</h1>
-      <p>
-        Welcome to the future home of our interior design marketplace.
-      </p>
-      <p>
-        This application is currently under development.
-        </p>
+    <div>
+      <h1>Infinte Spaces</h1>
+      <Button />
     </div>
   );
 }

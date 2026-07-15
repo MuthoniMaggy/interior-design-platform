@@ -1,0 +1,22 @@
+:root {
+    /* COLORS */
+    --color-primary: #A67C52;
+    --color-primary-dark: #8B6642;
+    --color-background: #F8F7F3;
+    --color-surface: #ECE7DF;
+    --color-text: #4b4b4b;
+    --color-heading: #2D2D2D;
+    --color-white: #FFFFFF;
+    --color-border: #D8D2CA;
+    /* SHADOWS */
+    --shadow-light:
+    0 5px 20px rgba(0,0,0,.05);
+    --shadow-medium:
+    0 12px 35px rgba(0,0,0,.08);
+    /* BOEDER */
+    --radius-small:8px;
+    --radius-medium:16px;
+    --radius-lrge:28px;
+/* SPACING */
+--selection-padding:120px;
+}
