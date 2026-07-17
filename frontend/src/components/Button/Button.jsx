@@ -1,8 +1,8 @@
 import "./Button.css";
-function Button(){
+function Button({ children, variant = "primary"} ){
     return(
-      <button>
-        Button
+      <button className={`button &{variant}`}>
+        {children}
       </button>  
     );
      
