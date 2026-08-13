@@ -26,7 +26,7 @@ function Hero({ title, subtitle, description, image}) {
                             </Button>
                         </div>
                     </div>
-                    <div classname="hero-image">
+                    <div className="hero-image">
                         <img src={image} alt="Luxury Interior Design" />
                     </div>
                 </div>
