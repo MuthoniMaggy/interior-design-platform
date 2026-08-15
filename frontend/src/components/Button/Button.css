@@ -6,7 +6,8 @@
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-
+    display: incline-block;
+    text-decoration: none;
 }
 .primary{
     background-color: #a67c52;

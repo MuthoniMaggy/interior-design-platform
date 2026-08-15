@@ -1,21 +1,14 @@
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import heroImage from "./assets/hero.png";
-import FeaturedProjects from "./components/FeaturedProjects/FeaturedProjects";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import ProjectDetails from "./pages/ProjectDetails/ProjectDetails";
 function App(){
   return(
-    <>
-    <Navbar />
+    <Routes>
+      <Route path="/" element={ <Home />} />
+      <Route path="/projects/:id" element={<ProjectDetails />} />
+    </Routes>
    
-      <Hero
-      subtitle="PREMIUM INTERIOR DESIGN"
-      title="Rooms with Limitless Creativity."
-      description="Luxury interior design crafted for modern homes, offices and commercial spaces with timeless elegance."
-      image={heroImage}
-      />
-      <FeaturedProjects />
-    </>
   );
 }
 export default App;

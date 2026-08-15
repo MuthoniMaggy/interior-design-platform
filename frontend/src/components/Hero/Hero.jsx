@@ -18,7 +18,7 @@ function Hero({ title, subtitle, description, image}) {
                             {description}
                         </p>
                         <div className="hero-buttons">
-                            <Button variant="primary">
+                            <Button variant="primary" href="#portfolio">
                                 Explore Portfolio
                             </Button>
                             <Button variant="secondary">

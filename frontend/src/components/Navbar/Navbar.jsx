@@ -1,13 +1,29 @@
 import "./Navbar.css";
 import Button from "../Button/Button";
 import Container from "../Container/Container";
+import { Link } from "react-router-dom";
 
 const navLinks = [
-    "Home",
-    "Services",
-    "Portfolio",
-    "About",
-    "Contact",
+    {
+        label: "Home",
+        href: "/",
+    },
+    {
+        label: "Services",
+        href: "/#services",
+    },
+    {
+        label: "Portfolio",
+        href: "/#portfolio",
+    },
+    {
+        label: "About",
+        href: "/#about",
+    },
+    {
+        label: "Contact",
+        href: "/#contact",
+    },
 ];
 
 function Navbar(){
@@ -20,10 +36,10 @@ function Navbar(){
                 </div>
                 <ul className="nav-links">
                     {navLinks.map((link) => (
-                        <li key={link}>
-                            <a href="#">
-                                {link}
-                            </a>
+                        <li key={link.label}>
+                           <a href={link.href}>
+                             {link.label}
+                           </a>
                         </li>
                     ))}
                 </ul>

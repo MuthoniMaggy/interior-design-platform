@@ -3,7 +3,7 @@ import projects from "../../data/projects";
 import ProjectCard from "../ProjectCard/ProjectCard";
 function FeaturedProjects(){
     return(
-        <section className="featured-projects">
+        <section id="portfolio" className="featured-projects">
             <div className="featured-projects-header">
                 <p className="section-label">
                     OUR WORK
